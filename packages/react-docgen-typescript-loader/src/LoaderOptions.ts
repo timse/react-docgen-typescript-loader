@@ -41,8 +41,4 @@ export default interface LoaderOptions {
    * @default true
    */
   setDisplayName?: boolean;
-
-  includes?: string[];
-
-  excludes?: string[];
 }

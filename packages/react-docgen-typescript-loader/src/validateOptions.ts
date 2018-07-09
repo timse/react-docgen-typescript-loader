@@ -32,20 +32,6 @@ const schema = {
     setDisplayName: {
       type: "boolean",
     },
-
-    includes: {
-      type: "array",
-      items: {
-        type: "string",
-      },
-    },
-
-    excludes: {
-      type: "array",
-      items: {
-        type: "string",
-      },
-    },
   },
 };
 
