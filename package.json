@@ -25,7 +25,8 @@
     "test": "lerna run --stream --concurrency 1 test",
     "lint": "tslint -p ./",
     "storybook": "lerna run --parallel storybook",
-    "build-storybook": "lerna run --parallel build-storybook"
+    "build-storybook": "lerna run --parallel build-storybook",
+    "docs": "docsify serve ./docs"
   },
   "devDependencies": {
     "@types/jest": "^23.1.4",
@@ -33,6 +34,7 @@
     "@types/node": "^10.5.2",
     "@types/react": "^16.4.6",
     "@types/webpack": "^4.4.5",
+    "docsify-cli": "^4.2.1",
     "lerna": "^2.11.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.13.7",
